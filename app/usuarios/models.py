@@ -1,6 +1,6 @@
 from datetime import datetime
 from sqlalchemy.orm import Mapped, mapped_column
-from infra.database import Base
+from ..infra.database import Base
 
 class Usuario(Base):
     __tablename__ = "usuarios"

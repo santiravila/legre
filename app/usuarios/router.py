@@ -1,7 +1,7 @@
 from .schema import UsuarioCrear, UsuarioRespuesta
 from .service import UsuarioServicio
 from .repository import UsuarioRepositorio
-from common.dependencies import DBSession
+from ..common.dependencies import DBSession
 from fastapi import APIRouter, Depends
 from typing import Annotated
 
