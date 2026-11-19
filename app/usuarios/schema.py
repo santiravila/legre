@@ -15,3 +15,8 @@ class UsuarioRespuesta(UsuarioBase):
     model_config = ConfigDict(from_attributes=True)
     id: int
     fecha_registro: datetime
+
+
+class UsuarioActualizar(UsuarioBase):
+    nombre: str | None = None
+    password: str | None = None
